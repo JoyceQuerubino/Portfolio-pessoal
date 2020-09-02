@@ -1,0 +1,40 @@
+
+/*Geral*/
+body{
+    margin:0;
+    line-height: 1.5;
+}
+
+*{
+    margin: 0; 
+    padding:0; 
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+::before, ::after{
+    box-sizing: border-box;
+}
+
+/*menu lateral*/
+.section{
+    background-color: #f2f2fc;
+    min-height: 100vh;
+    display: block;
+}
+
+.conteudo-menu{
+    padding-left: 270px;
+}
+
+/*lateral*/
+.lateral{
+    width: 270px;
+    background-color: #fdf9ff;
+    position:fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index:10;
+    border-right: 1px solid #e8dfec;
+}

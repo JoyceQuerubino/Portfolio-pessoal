@@ -1,6 +1,7 @@
 /*IMPORTANDO ICONES - Font Awesome Free Icon*/
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 @import url('<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">');
+@import url('<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">');
 
 /* VARIAVÉIS DE COR*/
 
@@ -185,4 +186,21 @@ body{
     height: 200px;
     display: inline-block;
 
+}
+
+.home .intro h1{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color:#302e4d; 
+    margin: 20px 0 5px; 
+}
+
+.home .intro p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:#504e70;  
+    margin: 0;
+    line-height: 22px;
 }

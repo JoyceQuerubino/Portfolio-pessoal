@@ -204,3 +204,28 @@ body{
     margin: 0;
     line-height: 22px;
 }
+
+.home .intro .redes-sociais{
+    margin-top: 25px;
+}
+
+.home .intro .redes-sociais a{
+    height: 35px;
+    width: 35px;
+    background-color: red;
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+    color: #ffffff;
+    margin: 0 4px;
+    border-radius: 50px;
+    text-decoration: none;
+    -webkit-transition: all 0.3 easy; 
+    transition: all 0.3 easy; 
+}
+
+/*obs.: Usei a animação no webkit tmb, porque ele é um ícone, */
+.home .intro .redes-sociais a:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}

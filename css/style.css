@@ -4,6 +4,9 @@
 @import url('<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">');
 
 /* VARIAVÉIS DE COR*/
+:root {
+    --color-blue:#19A3F7;
+  }
 
 /*Geral*/
 body{
@@ -32,6 +35,31 @@ body{
     display: block;
     padding: 0 30px;
 }
+.section .container{
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+.section-title{
+    -ms-flex:0 0 100%;
+    flex:0 0 100%;
+    max-width: 100%;
+    background-color: red;
+}
+
+.linhas-titulo{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;    
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    position: relative;
+}
+
+.padd-15{
+    padding-right: 15px;
+    padding-left: 15px;
+}
 
 .main-content{
     padding-left: 270px;
@@ -42,6 +70,11 @@ body{
     width: 100%;
     margin: auto;
 }
+
+.hidden{
+    display: none!important;
+}
+
 /*fim-configurações do meio do home*/
 /*lateral*/
 .lateral{
@@ -103,13 +136,13 @@ body{
     height: 2px;
     width: 18px;
     display: inline-block;
-    background-color: #ec1839;
+    background-color: var(--color-blue);
     position: relative;
 }
 
 .lateral .mini-menu-button span::before{
     content: '';
-    background-color: #ec1839;
+    background-color: var(--color-blue);
     height: 2px;
     width: 18px;
     position: absolute;
@@ -119,7 +152,7 @@ body{
 
 .lateral .mini-menu-button span::after{
     content: '';
-    background-color: #ec1839;
+    background-color: var(--color-blue);
     height: 2px;
     width: 18px;
     position: absolute;
@@ -154,11 +187,11 @@ body{
 
 .lateral .itens-menu li a:not(.active):hover{
     padding-left: 5px;
-    color: #ec1839;
+    color: var(--color-blue);
 }
 
 .lateral .itens-menu li a.active{
-    color: #ec1839;
+    color: var(--color-blue);
 }
 
 .lateral .itens-menu li a .fa{
@@ -212,7 +245,7 @@ body{
 .home .intro .redes-sociais a{
     height: 35px;
     width: 35px;
-    background-color: red;
+    background-color: var(--color-blue);
     display: inline-block;
     text-align: center;
     line-height: 35px;
@@ -229,3 +262,6 @@ body{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+/*FIM DA HOME*/
+
+/* PAGINA SOBRE */

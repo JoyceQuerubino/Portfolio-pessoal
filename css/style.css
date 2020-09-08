@@ -103,6 +103,26 @@ body{
     margin: auto;
 }
 
+.btn{
+    background-color: var(--color-blue);
+    font-family: 'Open Sans', sans-serif;
+    font-size:12px; 
+    font-weight: 600;
+    padding: 10px 20px;
+    color: #FFFF;
+    border-radius:40px;
+    display: inline-block;
+    white-space: nowrap;
+
+    -webkit-transition: all 0.3s ease; 
+    transition: all 0.3s ease; 
+}
+
+.btn:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
 .hidden{
     display: none!important;
 }
@@ -319,15 +339,22 @@ body{
 }
 
 .sobre .sobre-conteudo .personal-info{
-    background-color: red; 
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
     margin-top: 40px;
 }
 
+.sobre .sobre-conteudo .personal-info .buttons{
+    margin-top:30px; 
+}
+
+.sobre .sobre-conteudo .personal-info .buttons .btn{
+    margin-right:15px; 
+    margin-top: 10px ;
+}
+
 .sobre .sobre-conteudo .skills{
-    background-color: blue;
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;

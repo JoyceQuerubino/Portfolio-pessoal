@@ -78,7 +78,7 @@ body{
     background-color: var(--color-blue);
 }
 
-.linhas-titulo{
+.linhas{
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;    
@@ -230,11 +230,6 @@ body{
     margin-right: 5px;
 }
 
-.lateral .autoria{
-    font-size: 11px;
-    color: #7d7d7d;
-}
-
 /*HOME*/
 .home{
     min-height: 100vh;
@@ -297,7 +292,7 @@ body{
 /*FIM DA HOME*/
 
 /* PAGINA SOBRE */
-.sobre .sobre-conteudo{
+ .sobre .sobre-conteudo{
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
@@ -321,4 +316,20 @@ body{
     line-height: 25px;
     color: var(--color-text);
     margin:0;
+}
+
+.sobre .sobre-conteudo .personal-info{
+    background-color: red; 
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: 40px;
+}
+
+.sobre .sobre-conteudo .skills{
+    background-color: blue;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: 40px ;
 }

@@ -8,6 +8,7 @@
     --color-blue:#19A3F7;
     --color-text:#504e70;
     --color-title:#302e4d;
+    --color-grey:#e3e3e3;
   }
 
 /*Geral*/
@@ -338,18 +339,11 @@ body{
     margin:0;
 }
 
-.sobre .sobre-conteudo .personal-info{
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-    margin-top: 40px;
+.sobre .sobre-conteudo .buttons{
+    margin-top:20px; 
 }
 
-.sobre .sobre-conteudo .personal-info .buttons{
-    margin-top:30px; 
-}
-
-.sobre .sobre-conteudo .personal-info .buttons .btn{
+.sobre .sobre-conteudo .buttons .btn{
     margin-right:15px; 
     margin-top: 10px ;
 }
@@ -359,4 +353,47 @@ body{
     flex: 0 0 50%;
     max-width: 50%;
     margin-top: 40px ;
+}
+
+.sobre .sobre-conteudo .skills-item{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 15px ;
+}
+
+.sobre .sobre-conteudo .skills-item h5{
+    line-height: 20px;
+    font-weight: 600;
+    font-size: 15px; 
+    color: var(--color-text);
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.sobre .sobre-conteudo .skills-item .progresso{
+    background-color: var(--color-grey);
+    height: 8px;
+    border-radius: 4px;
+    widows: 100%;
+    position: relative;
+}
+
+.sobre .sobre-conteudo .skills-item .progresso .progreso-in{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 4px;
+    background-color: var(--color-blue);
+}
+
+.sobre .sobre-conteudo .skills-item .percentual{
+    line-height: 60px;
+    position: absolute;
+    right: 0;
+    top:-40px;
+    font-weight: 400;
+    font-size: 15px; 
+    color: var(--color-text)
 }

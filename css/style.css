@@ -9,6 +9,8 @@
     --color-text:#504e70;
     --color-title:#302e4d;
     --color-grey:#e3e3e3;
+    --color-timeline:#fdf9ff;
+    --color-border: #d4d4e3;
   }
 
 /*Geral*/
@@ -329,7 +331,7 @@ body{
     font-size: 24px;
     margin-bottom:15px;
     color: var(--color-title);
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .sobre .sobre-conteudo .sobre-texto p{
@@ -352,7 +354,7 @@ body{
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
-    margin-top: 40px ;
+    margin-top: 50px;
 }
 
 .sobre .sobre-conteudo .skills-item{
@@ -396,4 +398,43 @@ body{
     font-weight: 400;
     font-size: 15px; 
     color: var(--color-text)
+}
+
+.sobre .sobre-conteudo .educacao{
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: 60px;
+}
+
+.sobre .sobre-conteudo .experiencia{
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: 60px;
+}
+
+.sobre .sobre-conteudo  h3.title{
+    font-size: 24px;
+    margin-bottom:30px;
+    color: var(--color-title);
+    font-weight: 600;
+}
+
+.sobre .sobre-conteudo .timeline-box{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.sobre .sobre-conteudo .timeline{
+    background-color: var(--color-timeline);
+    padding: 30px 15px;
+    border: 1px solid  var(--color-border);
+    border-radius: 10px;
+
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
 }

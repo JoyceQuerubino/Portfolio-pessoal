@@ -436,7 +436,7 @@ body{
     flex: 0 0 100%;
     max-width: 100%;
     width: 100%;
-    /*position: relative;  - REMOVER*/
+    position: relative;
 }
 
 .sobre .sobre-conteudo .timeline .timeline-item{
@@ -455,17 +455,26 @@ body{
     width: 2px;
     position: absolute;
     height: 100%;
-    left: 0;
+    left: 7px;
     top: 0;
     background-color:var(--color-blue);
 
 }
 
-.sobre .sobre-conteudo .timeline .circulo-data{}
+.sobre .sobre-conteudo .timeline .circulo-data{
+    position: absolute;
+    left: 0;
+    top: 0px;
+    height: 15px;
+    width: 15px;
+    background-color:var(--color-blue);
+    left: 0px;
+    border-radius: 50%;
+}
 
-.sobre .sobre-conteudo .timeline .timeline-data {
+.sobre .sobre-conteudo .timeline .timeline-data{
     font-size: 14px; 
-    font-weight: 700;
+    font-weight: 700; 
     margin-bottom: 10px;
     color: var(--color-text);
 }

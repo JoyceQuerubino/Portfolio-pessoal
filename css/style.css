@@ -177,12 +177,11 @@ body{
     border-radius: 5px;
     background-color: #fdf9ff;
     
-    /*display: -ms-flexbox;*/
+
     display: none;
     -ms-flex-align: center;
     -ms-flex-pack: center;
     
-    /*display: flex;*/
     align-items: center;
     justify-content: center;
 }
@@ -437,4 +436,55 @@ body{
     flex: 0 0 100%;
     max-width: 100%;
     width: 100%;
+    /*position: relative;  - REMOVER*/
+}
+
+.sobre .sobre-conteudo .timeline .timeline-item{
+    position: relative;
+    padding-left: 37px;
+    padding-bottom:30px;
+}
+
+/*Para o último item não ficar com o espaço no final do card*/
+.sobre .sobre-conteudo .timeline .timeline-item:last-child{
+    padding-bottom:0px;
+}
+
+.sobre .sobre-conteudo .timeline .timeline-item::before{
+    content: '';
+    width: 2px;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color:var(--color-blue);
+
+}
+
+.sobre .sobre-conteudo .timeline .circulo-data{}
+
+.sobre .sobre-conteudo .timeline .timeline-data {
+    font-size: 14px; 
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: var(--color-text);
+}
+
+.sobre .sobre-conteudo .timeline .timeline-data .fa{
+    margin-right: 5px;
+}
+
+.sobre .sobre-conteudo .timeline .timeline-title{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    color: var(--color-title);
+}
+
+.sobre .sobre-conteudo .timeline .timeline-text{
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--color-text);
+    margin: 0;
 }

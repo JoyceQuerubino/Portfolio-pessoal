@@ -400,22 +400,30 @@ body{
 }
 
 .sobre .sobre-conteudo .educacao{
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
+    -ms-flex: 0 0 33%;
+    flex: 0 0 33%;
+    max-width: 33%;
     margin-top: 60px;
 }
 
 .sobre .sobre-conteudo .experiencia{
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
+    -ms-flex: 0 0 33%;
+    flex: 0 0 33%;
+    max-width: 33%;
     margin-top: 60px;
 }
 
+.sobre .sobre-conteudo .cursos{
+    -ms-flex: 0 0 33%;
+    flex: 0 0 33%;
+    max-width: 33%;
+    margin-top: 60px;
+}
+
+
 .sobre .sobre-conteudo  h3.title{
     font-size: 24px;
-    margin-bottom:30px;
+    margin-bottom:20px;
     color: var(--color-title);
     font-weight: 600;
 }
@@ -428,7 +436,7 @@ body{
 
 .sobre .sobre-conteudo .timeline{
     background-color: var(--color-timeline);
-    padding: 30px 15px;
+    padding: 40px 15px;
     border: 1px solid  var(--color-border);
     border-radius: 10px;
 
@@ -441,7 +449,7 @@ body{
 
 .sobre .sobre-conteudo .timeline .timeline-item{
     position: relative;
-    padding-left: 37px;
+    padding-left: 30px;
     padding-bottom:30px;
 }
 
@@ -485,14 +493,14 @@ body{
 
 .sobre .sobre-conteudo .timeline .timeline-title{
     font-weight: 700;
-    font-size: 18px;
-    margin-bottom: 5px;
+    font-size: 14px;
+    margin-bottom: 3px;
     text-transform: capitalize;
     color: var(--color-title);
 }
 
 .sobre .sobre-conteudo .timeline .timeline-text{
-    font-size: 16px;
+    font-size: 12px;
     line-height: 25px;
     color: var(--color-text);
     margin: 0;

@@ -505,3 +505,16 @@ body{
     color: var(--color-text);
     margin: 0;
 }
+
+/* Service Section */
+
+.service .service-item{
+    background-color: red;
+    padding: 15px;
+    -ms-flex: 0 0 33.33%;
+    flex: 0 0 33.33%;
+}
+
+.service .service-item .service-item-inner{
+    background-color: var(--color-timeline);
+}

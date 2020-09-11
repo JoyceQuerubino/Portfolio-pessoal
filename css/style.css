@@ -508,13 +508,30 @@ body{
 
 /* Service Section */
 
+.service .container{
+    padding-bottom: 40px;
+}
+
 .service .service-item{
-    background-color: red;
     padding: 15px;
     -ms-flex: 0 0 33.33%;
     flex: 0 0 33.33%;
+    max-width: 33.33%;
 }
 
 .service .service-item .service-item-inner{
     background-color: var(--color-timeline);
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    padding: 30px 15px;
+    text-align: center;
 }
+
+.service .service-item .service-item-inner .icon{}
+.service .service-item .service-item-inner h4{
+    font-size: 18px;
+    margin-bottom:15px;
+    color: var(--color-title);
+
+}
+.service .service-item .service-item-inner p{}

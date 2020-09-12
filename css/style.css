@@ -517,6 +517,8 @@ body{
     -ms-flex: 0 0 33.33%;
     flex: 0 0 33.33%;
     max-width: 33.33%;
+    display: -ms-flexbox;
+    display: flex;
 }
 
 .service .service-item .service-item-inner{
@@ -525,13 +527,47 @@ body{
     border-radius: 10px;
     padding: 30px 15px;
     text-align: center;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease; 
 }
 
-.service .service-item .service-item-inner .icon{}
+.service .service-item .service-item-inner:hover{
+    -webkit-box-shadown: 0 0 20px rgba(48, 46, 77, 0.15);
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+
+.service .service-item .service-item-inner .icon{
+    height: 60px;
+    width: 60px;
+   
+    color: var(--color-blue);
+    display: block;
+    margin: 0 auto 30px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease; 
+}
+.service .service-item .service-item-inner .icon:hover{
+    color: white;
+    background-color: var(--color-blue);
+}
+
+.service .service-item .service-item-inner .icon .fa{
+    font-size: 35px;
+    line-height: 60px;
+}
+
 .service .service-item .service-item-inner h4{
     font-size: 18px;
     margin-bottom:15px;
     color: var(--color-title);
-
+    font-weight: 700;
+    text-transform: capitalize;
 }
-.service .service-item .service-item-inner p{}
+.service .service-item .service-item-inner p{
+    font-size: 16px;
+    color: var(--color-text);
+    line-height: 25px;
+    margin: 0;
+}

@@ -571,3 +571,73 @@ body{
     line-height: 25px;
     margin: 0;
 }
+
+/*PORTFOLIO*/
+
+/* .portfolio  .container{
+    /*70 - 20px(do porfolio-item)*/
+    /*margin-bottom: 40px;
+}
+*/
+
+.portfolio .portfolio-item{
+    /*background-color: red;*/
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    margin-bottom: 30px;
+    /*Para deixar todos os cards do mesmo comprimento*/
+    display: -ms-flexbox;
+    display: flex;
+    
+}
+
+.portfolio .portfolio-item-inner{
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid var(--color-border);
+    background-color: var(--color-timeline);
+}
+
+.portfolio .portfolio-item-inner .portfolio-img {
+    position: relative;
+}
+
+.portfolio .portfolio-item-inner:hover .portfolio-img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.portfolio .portfolio-item-inner .portfolio-img img{
+    width: 100%;
+    display: block;
+    -webkit-transition: all 0.5s ease ;
+    transition: all 0.5s ease ;
+} 
+
+.portfolio .portfolio-item-inner .portfolio-info{
+    padding: 30px 15px;
+    background-color: var(--color-timeline);
+}
+
+.portfolio .portfolio-item-inner .portfolio-info .portfolio-title{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color-title);
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.portfolio .portfolio-item-inner .portfolio-info  .portfolio-text{
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--color-text);
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.portfolio .portfolio-item-inner .portfolio-info .portfolio-tags{
+    font-size: 14px;
+    line-height: 25px;
+    color: var(--color-text);
+    font-weight: 400;
+    text-transform: capitalize;
+}

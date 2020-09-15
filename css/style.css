@@ -264,8 +264,7 @@ body{
 }
 
 .home .intro img{
-    width: 200px;
-    height: 200px;
+   width: 35%;
     display: inline-block;
 
 }
@@ -625,6 +624,7 @@ body{
     color: var(--color-title);
     text-transform: capitalize;
     margin-bottom: 10px;
+    
 }
 .portfolio .portfolio-item-inner .portfolio-info  .portfolio-text{
     font-size: 16px;

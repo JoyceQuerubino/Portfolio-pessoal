@@ -721,3 +721,114 @@ input, textarea, select{
     height: 50px;
     padding: 0 50px;
 }
+
+/*RESPONSIVIDADE*/
+@media (max-width:1199px){
+    .lateral{
+        left: -270px;
+    }
+    .main-content{
+        padding-left: 0;
+    }
+    .home .intro img{
+        width: 45%;
+         display: inline-block;
+     
+     }
+}
+
+@media (max-width: 991px){
+    
+    .home .intro img{
+        width: 55%;
+         display: inline-block;
+     }
+     .service .service-item{
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+     }
+
+    .sobre .sobre-conteudo .educacao,
+    .sobre .sobre-conteudo .experiencia, 
+    .sobre .sobre-conteudo .cursos{
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .portfolio .portfolio-item{
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-bottom: 30px;
+        /*Para deixar todos os cards do mesmo comprimento*/
+        display: -ms-flexbox;
+        display: flex;
+        
+    }
+}
+
+@media (max-width: 767px){
+    .contact .contact-form .col-6,
+    .service .service-item-inner,
+    .sobre .sobre-conteudo .educacao,
+    .sobre .sobre-conteudo .experiencia, 
+    .sobre .sobre-conteudo .cursos, 
+    .sobre .sobre-conteudo .skills{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        
+    }
+    .service .service-item{
+       
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .home .intro img{
+        width: 70%;
+         display: inline-block;
+     
+     }
+     .portfolio .portfolio-item{
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-bottom: 30px;
+        /*Para deixar todos os cards do mesmo comprimento*/
+        display: -ms-flexbox;
+        display: flex;
+        
+    }
+}
+
+@media (max-width: 650px){
+
+    .portfolio .portfolio-item{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 30px;
+        /*Para deixar todos os cards do mesmo comprimento*/
+        display: -ms-flexbox;
+        display: flex;
+        
+    }
+}
+
+@media (max-width: 550px){
+    .contact .contact-info-item{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 410px){
+    .home .intro img{
+        width: 70%;
+         display: inline-block;
+     }
+}

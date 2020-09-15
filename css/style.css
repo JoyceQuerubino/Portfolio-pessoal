@@ -33,6 +33,9 @@ body{
     box-sizing: border-box;
 }
 
+input, textarea, select{
+    font-family: 'Open Sans', sans-serif;
+}
 /*menu lateral*/
 .section{
     background-color: #f2f2fc;
@@ -116,6 +119,8 @@ body{
     border-radius:40px;
     display: inline-block;
     white-space: nowrap;
+    border: none;
+    cursor: pointer;
 
     -webkit-transition: all 0.3s ease; 
     transition: all 0.3s ease; 
@@ -639,10 +644,11 @@ body{
 /*PÁGINA DE CONTATO*/
 
 .contact .contact-info-item{
-    -ms-flex: 0 0 33.33%;
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .contact .contact-info-item .icon{
@@ -666,4 +672,52 @@ body{
     color: var(--color-text);
     margin: 0;
     font-weight: 400;
+}
+
+.contact .contact-form{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.contact .contact-form .col-6{
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.contact .contact-form .col-12{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.contact .contact-form .form-item{
+    margin-bottom: 30px;
+}
+
+.contact .contact-form .form-item .form-control{
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid var(--color-border);
+    padding: 10px 25px;
+    font-size: 16px;
+    color: var(--color-text);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.contact .contact-form .form-item .form-control:focus{
+    -webkit-box-shadown: 0 0 20px rgba(48, 46, 77, 0.15);
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+
+.contact .contact-form .form-item textarea.form-control{
+    height: 140px;
+}
+
+.contact .contact-form .btn{
+    height: 50px;
+    padding: 0 50px;
 }

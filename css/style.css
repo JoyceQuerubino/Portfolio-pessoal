@@ -573,14 +573,8 @@ body{
 
 /*PORTFOLIO*/
 
-/* .portfolio  .container{
-    /*70 - 20px(do porfolio-item)*/
-    /*margin-bottom: 40px;
-}
-*/
-
 .portfolio .portfolio-item{
-    /*background-color: red;*/
+    -ms-flex: 0 0 33.33%;
     flex: 0 0 33.33%;
     max-width: 33.33%;
     margin-bottom: 30px;
@@ -644,3 +638,32 @@ body{
 
 /*PÁGINA DE CONTATO*/
 
+.contact .contact-info-item{
+    -ms-flex: 0 0 33.33%;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    text-align: center;
+}
+
+.contact .contact-info-item .icon{
+    display: inline-block;
+}
+
+.contact .contact-info-item .icon .fa{
+    font-size: 40px;
+    color: var(--color-blue);
+}
+.contact .contact-info-item h4{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color-title);
+    text-transform: capitalize;
+    margin: 10px 0 5px;
+}
+.contact .contact-info-item p{
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--color-text);
+    margin: 0;
+    font-weight: 400;
+}

@@ -767,12 +767,21 @@ input, textarea, select{
 
 /*RESPONSIVIDADE*/
 @media (max-width:1199px){
+    
+    .lateral .mini-menu-button{
+        display: -ms-flexbox;
+        display: flex;
+        left: 30px;
+    }
+
     .lateral{
         left: -270px;
     }
-    .main-content{
-        padding-left: 0;
+
+    .section{
+        left: 0;
     }
+
     .home .intro img{
         width: 45%;
          display: inline-block;

@@ -48,9 +48,11 @@ input, textarea, select{
     right: 0;
     bottom: 0;
     z-index: 0;
+    opacity: 1;
 }
 
 .section.active{
+    opacity: 1;
     z-index: 2;
 }
 .section .container{

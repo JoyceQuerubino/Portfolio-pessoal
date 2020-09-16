@@ -42,6 +42,16 @@ input, textarea, select{
     min-height: 100vh;
     display: block;
     padding: 0 30px;
+    position: fixed;
+    left: 270px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+.section.active{
+    z-index: 2;
 }
 .section .container{
     padding-top: 60px;
@@ -99,9 +109,7 @@ input, textarea, select{
     padding-left: 15px;
 }
 
-.main-content{
-    padding-left: 270px;
-}
+
 /*configurações do meio da home*/
 .container{
     max-width: 1100px;

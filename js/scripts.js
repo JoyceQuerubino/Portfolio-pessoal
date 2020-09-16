@@ -41,3 +41,17 @@ function showSection(element){
           document.querySelector("#" + target).classList.add("active")
 }   
 
+
+// Mini Menu responsivo
+
+const miniMenu = document.querySelector(".mini-menu-button"), 
+      lateral = document.querySelector(".lateral");
+
+miniMenu.addEventListener("click", () =>{
+    lateralSectionBtn();
+})
+
+function  lateralSectionBtn(){
+    lateral.classList.toggle("open");
+    miniMenu.lateral.classList.toggle("open");
+}

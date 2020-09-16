@@ -774,8 +774,16 @@ input, textarea, select{
         left: 30px;
     }
 
+    .lateral .mini-menu-button.open{
+        left: 300px;
+    }
+
     .lateral{
         left: -270px;
+    }
+
+    .lateral.open{
+        left: 0px; 
     }
 
     .section{

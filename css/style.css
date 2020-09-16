@@ -54,10 +54,40 @@ input, textarea, select{
     opacity: 1;
 }
 
+/*Transição das páginas*/
+.section.back-section{
+    z-index: 1;
+}
+
 .section.active{
     opacity: 1;
     z-index: 2;
+    -webkit-animation: slideSection 1s ease;;
+    animation: slideSection 1s ease;
 }
+
+@-webkit-keyframes slideSection{
+    0%{
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+    100%{
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slideSection{
+    0%{
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+    100%{
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+}
+
 .section .container{
     padding-top: 60px;
     padding-bottom: 70px;

@@ -603,6 +603,7 @@ input, textarea, select{
     text-align: center;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease; 
+    width: 100%;
 }
 
 .service .service-item .service-item-inner:hover{
@@ -656,6 +657,7 @@ input, textarea, select{
     /*Para deixar todos os cards do mesmo comprimento*/
     display: -ms-flexbox;
     display: flex;
+    width: 100%;
     
 }
 
@@ -925,4 +927,10 @@ input, textarea, select{
         width: 70%;
          display: inline-block;
      }
+}
+
+@media (max-width: 345px){
+    .lateral .mini-menu-button.open{
+        left: 220px;
+    }
 }

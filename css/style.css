@@ -191,7 +191,7 @@ input, textarea, select{
     height: 100%;
     left: 0;
     top: 0;
-    z-index:10;
+    z-index:11;
     border-right: 1px solid #e8dfec;
     padding: 30px;
     -webkit-transition: all 0.3s ease;

@@ -185,7 +185,7 @@ input, textarea, select{
 
 /*lateral*/
 .lateral{
-    width: 270px;
+    width: 370px;
     background-color: #fdf9ff;
     position:fixed;
     height: 100%;
@@ -210,9 +210,9 @@ input, textarea, select{
 }
 
 .lateral .perfil img{
-    width: 150px;
-    height: 150px;
-    border-radius:80px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
     border: 8px solid #ffffff;
 }
 
@@ -302,11 +302,11 @@ input, textarea, select{
 }
 
 .lateral .itens-menu li a{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     color: var(--color-title); 
     text-decoration: none;
-    line-height: 45px;
+    line-height: 50px;
     display: block;
     border-bottom: 1px solid #e8dfec;
     -webkit-transition: all 0.3s ease ;
@@ -324,7 +324,7 @@ input, textarea, select{
 }
 
 .lateral .itens-menu li a .fa{
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 /*HOME*/
@@ -339,13 +339,13 @@ input, textarea, select{
 }
 
 .home .intro img{
-   width: 35%;
+   width: 45%;
     display: inline-block;
 
 }
 
 .home .intro h1{
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     color: var(--color-title); 
@@ -353,12 +353,12 @@ input, textarea, select{
 }
 
 .home .intro p{
-    font-size: 16px;
+    font-size: 25px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: var(--color-text);  
     margin: 0;
-    line-height: 22px;
+    line-height: 30px;
 }
 
 .home .intro .redes-sociais{
@@ -366,15 +366,15 @@ input, textarea, select{
 }
 
 .home .intro .redes-sociais a{
-    height: 35px;
-    width: 35px;
+    height: 45px;
+    width: 45px;
     background-color: var(--color-blue);
     display: inline-block;
     text-align: center;
-    line-height: 35px;
+    line-height: 45px;
     color: #ffffff;
-    margin: 0 4px;
-    border-radius: 50px;
+    margin: 0 5px;
+    border-radius: 50%;
     text-decoration: none;
     -webkit-transition: all 0.3 easy; 
     transition: all 0.3 easy; 
@@ -795,6 +795,15 @@ input, textarea, select{
 }
 
 /*RESPONSIVIDADE*/
+
+@media (max-width:1600px){
+    .lateral {
+        width: 270px;
+    }
+
+}
+
+
 @media (max-width:1199px){
 
     .section .container{
@@ -812,7 +821,7 @@ input, textarea, select{
     }
 
     .lateral{
-        left: -270px;
+        left: -370px;
     }
 
     .lateral.open{
@@ -830,6 +839,12 @@ input, textarea, select{
         width: 45%;
          display: inline-block;
      
+     }
+
+     .lateral .itens-menu li a {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 40px;
      }
 }
 
@@ -920,12 +935,34 @@ input, textarea, select{
         flex: 0 0 100%;
         max-width: 100%;
     }
+
 }
 
 @media (max-width: 410px){
+
+    .home .intro h1 {
+        font-size: 25px;
+    }
+
+    .home .intro p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
     .home .intro img{
         width: 70%;
          display: inline-block;
+     }
+     .home .intro .redes-sociais a {
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+        margin: 0 3px;
+     }
+
+     .lateral .perfil img {
+        width: 150px;
+        height: 150px;
      }
 }
 

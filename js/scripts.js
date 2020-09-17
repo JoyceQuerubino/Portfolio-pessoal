@@ -27,6 +27,11 @@ for(let i=0; i < totalNavList; i++){
         }
         this.classList.add("active");
         showSection(this);
+
+        //Para quando selecionado um botão do menu lateral, o mini-menu feche automaticamente
+        if(window.innerWidth < 1200){
+            lateralSectionBtn();
+        }
     })
 }
 
@@ -47,11 +52,13 @@ function showSection(element){
 const miniMenu = document.querySelector(".mini-menu-button"), 
       lateral = document.querySelector(".lateral");
 
-miniMenu.addEventListener("click", () =>{
-    lateralSectionBtn();
-})
+miniMenu.addEventListener("click", lateralSectionBtn)
 
 function  lateralSectionBtn(){
     lateral.classList.toggle("open");
-    miniMenu.lateral.classList.toggle("open");
+    miniMenu.classList.toggle("open");
+    
+    for (let i=0; i < totalSection; i++){
+        allSection[i].classList.toggle("open");
+    }
 }

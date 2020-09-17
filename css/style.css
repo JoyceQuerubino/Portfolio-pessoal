@@ -52,6 +52,9 @@ input, textarea, select{
     overflow-x: hidden;
     overflow-y: auto;
     opacity: 1;
+
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 /*Transição das páginas*/
@@ -190,6 +193,8 @@ input, textarea, select{
     z-index:10;
     border-right: 1px solid #e8dfec;
     padding: 30px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .lateral .perfil{
@@ -220,7 +225,7 @@ input, textarea, select{
     cursor: pointer;
     position:fixed;
     left: 300px;
-    top:30px; 
+    top:20px; 
     z-index: 11;
     border-radius: 5px;
     background-color: #fdf9ff;
@@ -232,6 +237,9 @@ input, textarea, select{
     
     align-items: center;
     justify-content: center;
+
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .lateral .mini-menu-button span{
@@ -240,6 +248,16 @@ input, textarea, select{
     display: inline-block;
     background-color: var(--color-blue);
     position: relative;
+}
+
+.lateral .mini-menu-button.open span{
+    background-color: transparent;
+}
+
+.lateral .mini-menu-button.open span::before{
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 0px;
 }
 
 .lateral .mini-menu-button span::before{
@@ -262,8 +280,13 @@ input, textarea, select{
     left: 0;
 }
 
-/*Fim - mini-menu-button*/
+.lateral .mini-menu-button.open span::after{
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 0px;
+}
 
+/*Fim - mini-menu-button*/
 .lateral .itens-menu{
     list-style: none;
     margin:70px 0; 
@@ -767,6 +790,10 @@ input, textarea, select{
 
 /*RESPONSIVIDADE*/
 @media (max-width:1199px){
+
+    .section .container{
+        padding-top: 70px;
+    }
     
     .lateral .mini-menu-button{
         display: -ms-flexbox;
@@ -788,6 +815,9 @@ input, textarea, select{
 
     .section{
         left: 0;
+    }
+    .section.open{
+        left: 270;
     }
 
     .home .intro img{

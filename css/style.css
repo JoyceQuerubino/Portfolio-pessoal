@@ -180,8 +180,9 @@ input, textarea, select{
 .hidden{
     display: none!important;
 }
-
 /*fim-configurações do meio do home*/
+
+
 /*lateral*/
 .lateral{
     width: 270px;
@@ -195,6 +196,9 @@ input, textarea, select{
     padding: 30px;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
+
+    /*Barra lateral do menu*/
+    overflow-y: auto;
 }
 
 .lateral .perfil{

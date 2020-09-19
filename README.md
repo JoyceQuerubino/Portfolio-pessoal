@@ -12,17 +12,18 @@ Link: http://joyce.produzirconteudo.com.br/
 ## 📚 Páginas 
 O site é composto por 4 diferentes páginas:
 
-**Página Home:** Essa página apresenta uma animação com meu personagem e minhas redes sociais;
-
-**Página Sobre:** Apresenta informações sobre mim como: acadêmico, experiências profissionais, cursos, meus conhecimentos com ferramentas e linguagens. Além da opção de download do meu currículo e formato preto e branco para impressão. 
-
-**Página Serviços:** Exibe através de cards os diferentes serviços em que possuo conhecimentos. 
-
-**Página Portfólio:** Apresenta alguns projetos desenvolvidos, evidênciando através de tags as principais tecnologias utilizadas. E com link direto para os respectivos códigos no GitHub. 
-
-**Página Contato:** Essa página apresenta uma forma de entrar em contato atrvés de um formulário para envio direto de e-mails. 
+- **Página Home:** Essa página apresenta uma animação com meu personagem e minhas redes sociais;
+- **Página Serviços:** Exibe através de cards os diferentes serviços em que possuo conhecimentos;
+- **Página Portfólio:** Apresenta alguns projetos desenvolvidos, evidênciando através de tags as principais tecnologias utilizadas. E com link direto para os respectivos códigos no GitHub;
+-**Página Contato:** Essa página apresenta uma forma de entrar em contato atrvés de um formulário para envio direto de e-mails;
 
 ## 💻 Tecnologias utilizadas
+Para o desenvolvimento deste site utilizei as seguintes tecnologias:
+- Visual Studio Code;
+- HTML;
+- CSS;
+- JavaScript;
+- PHP (sendo implementado);
 
 ## Novos ajustes
 O site ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:

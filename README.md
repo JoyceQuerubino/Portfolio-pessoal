@@ -9,7 +9,7 @@ Ele foi criado com o objetivo de apresentar um pouco sobre mim e meus conhecimen
 
 ## 📱 Preview Mobile
 <h1 align="center">
-   <img src="/github/meuSiteMobile.gif" alt="Previw Mobile" />
+   <img src="/github/VideoMobile.gif" alt="Previw Mobile"/>
 </h1>
 
 ## 📚 Páginas 

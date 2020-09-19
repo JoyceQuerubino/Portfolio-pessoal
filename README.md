@@ -1,7 +1,7 @@
 
 ## 👋 Olá, seja bem vindo ao código do meu site pessoal!
 Ele foi criado com o objetivo de apresentar um pouco sobre mim e meus conhecimentos, além de disponibilizar meu portfólio, currículo e formas de entrar em contato. 
-É um site totalmente **responsivo** e com diversas animações, espero que gostem. 
+É um site totalmente **responsivo** e com diversas animações, espero que gostem! 😁
 
 **Link: http://joyce.produzirconteudo.com.br/**
 
@@ -22,7 +22,11 @@ O site é composto por 4 diferentes páginas:
 - **Página Home:** Essa página apresenta uma animação com meu personagem e minhas redes sociais;
 - **Página Serviços:** Exibe através de cards os diferentes serviços em que possuo conhecimentos;
 - **Página Portfólio:** Apresenta alguns projetos desenvolvidos, evidênciando através de tags as principais tecnologias utilizadas. E com link direto para os respectivos códigos no GitHub;
-- **Página Contato:** Essa página apresenta uma forma de entrar em contato atrvés de um formulário para envio direto de e-mails;
+- **Página Contato:** Essa página apresenta uma forma de entrar em contato através de um formulário para envio direto de e-mails;
+
+<h1 align="center">
+   <img src="/github/Conjunto-Editavel.png" alt="Conjunto de todas as telas do site"/>
+</h1>
 
 ## 🛠 Tecnologias utilizadas
 Para o desenvolvimento deste site utilizei as seguintes tecnologias:

@@ -19,6 +19,18 @@ O site é composto por 3 diferentes páginas:
 
 **Página Serviços:** Exibe através de cards os diferentes serviços em que possuo conhecimentos. 
 
-**Página Portfólio:** Apresenta alguns projetos desenvolvidos, evidênciando através de tags as principais tecnologias utilizadas. E com um link direto para os respectivos códigos no GitHub. 
+**Página Portfólio:** Apresenta alguns projetos desenvolvidos, evidênciando através de tags as principais tecnologias utilizadas. E com link direto para os respectivos códigos no GitHub. 
+
+**Página Contato:**Essa página apresenta uma forma de entrar em contato atrvés de um formulário para envio direto de e-mails. 
 
 ## 💻 Tecnologias utilizadas
+
+## Novos ajustes
+
+O site ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+
+- [x] Adicionar currículo;
+- [ ] Adicionar currículo para impressão; 
+- [ ] Desenvolvimento php para envio de e-mails atrvés do formulário de contato;
+- [ ] Adicionar currículo para impressão; 
+

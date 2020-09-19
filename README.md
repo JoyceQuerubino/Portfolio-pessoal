@@ -14,8 +14,11 @@ Link: http://joyce.produzirconteudo.com.br/
 O site é composto por 3 diferentes páginas:
 
 **Página Home:** Essa página apresenta uma animação com meu personagem e minhas redes sociais;
+
 **Página Sobre:** Apresenta informações sobre mim como: acadêmico, experiências profissionais, cursos, meus conhecimentos com ferramentas e linguagens. Além da opção de download do meu currículo e formato preto e branco para impressão. 
+
 **Página Serviços:** Exibe através de cards os diferentes serviços em que possuo conhecimentos. 
+
 **Página Portfólio:** Apresenta alguns projetos desenvolvidos, evidênciando através de tags as principais tecnologias utilizadas. E com um link direto para os respectivos códigos no GitHub. 
 
 ## 💻 Tecnologias utilizadas

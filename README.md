@@ -25,7 +25,7 @@ O site é composto por 4 diferentes páginas:
 - **Página Contato:** Essa página apresenta uma forma de entrar em contato através de um formulário para envio direto de e-mails;
 
 <h1 align="center">
-   <img src="/github/Conjunto-Editavel.png" alt="Conjunto de todas as telas do site"/>
+   <img src="/github/ConjuntoTelas.png" alt="Conjunto de todas as telas do site"/>
 </h1>
 
 ## 🛠 Tecnologias utilizadas

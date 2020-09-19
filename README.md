@@ -1,5 +1,6 @@
 
-# 👋 Olá, seja bem vindo ao código do meu site pessoal!
+# 👋 Olá, 
+## seja bem vindo ao código do meu site pessoal!
 Ele foi criado com o objetivo de apresentar um pouco sobre mim e meus conhecimentos, além de disponibilizar meu portfólio, currículo e formas de entrar em contato. 
 É um site totalmente **responsivo** e com diversas animações, espero que gostem. 
 

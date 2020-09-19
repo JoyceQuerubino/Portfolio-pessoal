@@ -1,12 +1,16 @@
 
 # 👋 Olá, 
-## seja bem vindo ao código do meu site pessoal!
+<h2>seja bem vindo ao código do meu site pessoal!<h2>
 Ele foi criado com o objetivo de apresentar um pouco sobre mim e meus conhecimentos, além de disponibilizar meu portfólio, currículo e formas de entrar em contato. 
 É um site totalmente **responsivo** e com diversas animações, espero que gostem. 
 
 **Link: http://joyce.produzirconteudo.com.br/**
 
 ## 🖥 Preview 
+<h1 align="center">
+   <img src="/github/VideSite-Web.gif" alt="Previw site"/>
+</h1>
+
 
 ## 📱 Preview Mobile
 <h1 align="center">

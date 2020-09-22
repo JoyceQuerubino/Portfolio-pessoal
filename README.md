@@ -44,4 +44,7 @@ O site ainda está em desenvolvimento e as próximas atualizações serão volta
 - [ ] Compra e implementação do certificado digital SSL;
 - [ ] Desenvolvimento php para envio de e-mails atrvés do formulário de contato;
 - [ ] Verificar formas de implementação de segurança;  
-
+---
+<p align= center>
+🐱‍👤 Desenvolvido por <strong>Joyce Querubino</strong>   -----   Me adicione no <a href="https://www.linkedin.com/in/joyce-querubino/"target="_blank">Linkedin</a>
+</p>

@@ -41,7 +41,7 @@ O site ainda está em desenvolvimento e as próximas atualizações serão volta
 
 - [x] Adicionar currículo;
 - [ ] Adicionar currículo para impressão (modelo preto e branco); 
-- [ ] Compra e implementação do certificado digital SSL;
+- [x] Compra e implementação do certificado digital SSL;
 - [ ] Desenvolvimento php para envio de e-mails atrvés do formulário de contato;
 - [ ] Verificar formas de implementação de segurança;  
 ---

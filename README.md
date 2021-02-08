@@ -46,5 +46,5 @@ O site ainda está em desenvolvimento e as próximas atualizações serão volta
 - [ ] Verificar formas de implementação de segurança;  
 ---
 <p align= center>
-🐱‍👤 Desenvolvido por <strong>Joyce Querubino</strong>   -----   Me adicione no <a href="https://www.linkedin.com/in/joyce-querubino/"target="_blank">Linkedin</a>
+Desenvolvido por <strong>Joyce Querubino</strong>   -----   Me adicione no <a href="https://www.linkedin.com/in/joyce-querubino/"target="_blank">Linkedin</a>
 </p>

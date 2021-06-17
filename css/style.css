@@ -42,9 +42,7 @@ input, textarea, select{
     min-height: 100vh;
     display: block;
     padding: 0 30px;
-    /* position: fixed; 
-    1 - By removing the fixed position, you will be able to see all the section through the scroll bar
-    */
+    /*1 - By removing the fixed position, you will be able to see all the section through the scroll bar*/
     left: 270px;
     top: 0;
     right: 0;
@@ -54,46 +52,9 @@ input, textarea, select{
     overflow-x: hidden;
     overflow-y: auto;
     opacity: 1;
-
-    /* -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease; */
 }
 
 /* 2- Remove translates*/
-
-/* Transição das páginas
-.section.back-section{
-    z-index: 1;
-} */
-
-/* .section.active{
-    opacity: 1;
-    z-index: 2;
-    -webkit-animation: slideSection 1s ease;;
-    animation: slideSection 1s ease;
-} */
-
-/* @-webkit-keyframes slideSection{
-    0%{
-        -webkit-transform: translateX(100%);
-        transform: translateX(100%);
-    }
-    100%{
-        -webkit-transform: translateX(0%);
-        transform: translateX(0%);
-    }
-}
-
-@keyframes slideSection{
-    0%{
-        -webkit-transform: translateX(100%);
-        transform: translateX(100%);
-    }
-    100%{
-        -webkit-transform: translateX(0%);
-        transform: translateX(0%);
-    }
-} */
 
 .section .container{
     padding-top: 60px;

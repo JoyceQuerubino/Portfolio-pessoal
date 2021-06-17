@@ -42,7 +42,9 @@ input, textarea, select{
     min-height: 100vh;
     display: block;
     padding: 0 30px;
-    position: fixed;
+    /* position: fixed; 
+    1 - By removing the fixed position, you will be able to see all the section through the scroll bar
+    */
     left: 270px;
     top: 0;
     right: 0;

@@ -43,15 +43,6 @@ input, textarea, select{
     display: block;
     padding: 0 30px;
     /*1 - By removing the fixed position, you will be able to see all the section through the scroll bar*/
-    left: 270px;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 0;
-    /*Permitir a barra de rolagem*/
-    overflow-x: hidden;
-    overflow-y: auto;
-    opacity: 1;
 }
 
 /* 2- Remove translates*/
@@ -148,7 +139,7 @@ input, textarea, select{
 /*fim-configurações do meio do home*/
 
 
-/*lateral*/
+/* lateral */
 .lateral{
     width: 370px;
     background-color: #fdf9ff;
@@ -845,6 +836,56 @@ input, textarea, select{
 }
 
 @media (max-width: 767px){
+
+    /* 1- scroll prohibit*/
+    .section{
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 0;
+
+        /*Allow Scroll just in the page*/
+        overflow-x: hidden;
+        overflow-y: auto;
+        opacity: 1;
+    }
+
+    /* 2- Add transiction pages */
+    .section.back-section{
+        z-index: 1;
+    }
+
+    .section.active{
+        opacity: 1;
+        z-index: 2;
+        -webkit-animation: slideSection 1s ease;;
+        animation: slideSection 1s ease;
+    }
+
+    @-webkit-keyframes slideSection{
+        0%{
+            -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+        }
+        100%{
+            -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+        }
+    }
+
+    @keyframes slideSection{
+        0%{
+            -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+        }
+        100%{
+            -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+        }
+}
+
+
     .contact .contact-form .col-6,
     .service .service-item-inner,
     .sobre .sobre-conteudo .educacao,

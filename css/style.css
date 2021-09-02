@@ -428,6 +428,60 @@ select {
   margin-top: 50px;
 }
 
+.sobre .conhecimentos-title {
+  font-size: 25px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  color: var(--color-title);
+  font-weight: 600;
+}
+
+.sobre .lista-conhecimentos-titulo {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: var(--color-title);
+  font-weight: 600;
+}
+
+.sobre .lista-conhecimentos {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 6px 0;
+}
+
+.sobre .lista-conhecimentos--menor {
+  max-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 6px 0;
+}
+
+.sobre .lista-conhecimentos-item {
+  text-align: center;
+  margin: 0 8px 8px 0;
+}
+
+.sobre .lista-conhecimentos-item:last-child {
+  margin: 0 0 8px 0;
+}
+
+.sobre .lista-conhecimentos-item img {
+  width: 60px;
+  height: 60px;
+}
+
+.sobre .lista-conhecimentos-item p {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: var(--color-text);
+  font-weight: 600;
+}
+
 .sobre .sobre-conteudo .educacao {
   -ms-flex: 0 0 33%;
   flex: 0 0 33%;
